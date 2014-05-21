@@ -10,4 +10,6 @@
 
 @interface HSViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
+
 @end

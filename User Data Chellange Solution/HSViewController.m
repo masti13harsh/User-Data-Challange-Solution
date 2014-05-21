@@ -7,6 +7,7 @@
 //
 
 #import "HSViewController.h"
+#import "HSUserData.h"
 
 @interface HSViewController ()
 
@@ -18,6 +19,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.users = [HSUserData users];
+    
+//    for(NSDictionary *user in self.users)
+//    {
+//        NSString *name = user[USER_NAME];
+//        NSString *email = user[USER_EMAIL];
+//        NSString *password = user[USER_PASSWORD];
+//        int age = [user[USER_AGE] intValue];
+//        
+//    }
+    NSLog(@"%@", self.users);
 }
 
 - (void)didReceiveMemoryWarning

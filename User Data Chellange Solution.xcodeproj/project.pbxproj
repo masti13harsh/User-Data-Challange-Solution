@@ -21,6 +21,11 @@
 		77B04F2C192CAC8700A0DA80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B04F0E192CAC8700A0DA80 /* UIKit.framework */; };
 		77B04F34192CAC8700A0DA80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77B04F32192CAC8700A0DA80 /* InfoPlist.strings */; };
 		77B04F36192CAC8700A0DA80 /* User_Data_Chellange_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B04F35192CAC8700A0DA80 /* User_Data_Chellange_SolutionTests.m */; };
+		77B04F41192CACA200A0DA80 /* HSUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B04F40192CACA200A0DA80 /* HSUserData.m */; };
+		77B04F43192CB03D00A0DA80 /* harsh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77B04F42192CB03D00A0DA80 /* harsh.jpg */; };
+		77B04F45192CB04800A0DA80 /* prateek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77B04F44192CB04800A0DA80 /* prateek.jpg */; };
+		77B04F47192CB05000A0DA80 /* amit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77B04F46192CB05000A0DA80 /* amit.jpg */; };
+		77B04F49192CB06800A0DA80 /* akash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77B04F48192CB06800A0DA80 /* akash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		77B04F31192CAC8700A0DA80 /* User Data Chellange SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Chellange SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		77B04F33192CAC8700A0DA80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77B04F35192CAC8700A0DA80 /* User_Data_Chellange_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Chellange_SolutionTests.m; sourceTree = "<group>"; };
+		77B04F3F192CACA200A0DA80 /* HSUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSUserData.h; path = ../HSUserData.h; sourceTree = "<group>"; };
+		77B04F40192CACA200A0DA80 /* HSUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSUserData.m; path = ../HSUserData.m; sourceTree = "<group>"; };
+		77B04F42192CB03D00A0DA80 /* harsh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harsh.jpg; sourceTree = "<group>"; };
+		77B04F44192CB04800A0DA80 /* prateek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prateek.jpg; sourceTree = "<group>"; };
+		77B04F46192CB05000A0DA80 /* amit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amit.jpg; sourceTree = "<group>"; };
+		77B04F48192CB06800A0DA80 /* akash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = akash.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +137,12 @@
 		77B04F11192CAC8700A0DA80 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				77B04F3F192CACA200A0DA80 /* HSUserData.h */,
+				77B04F40192CACA200A0DA80 /* HSUserData.m */,
+				77B04F48192CB06800A0DA80 /* akash.jpg */,
+				77B04F46192CB05000A0DA80 /* amit.jpg */,
+				77B04F42192CB03D00A0DA80 /* harsh.jpg */,
+				77B04F44192CB04800A0DA80 /* prateek.jpg */,
 				77B04F12192CAC8700A0DA80 /* User Data Chellange Solution-Info.plist */,
 				77B04F13192CAC8700A0DA80 /* InfoPlist.strings */,
 				77B04F16192CAC8700A0DA80 /* main.m */,
@@ -231,7 +248,11 @@
 			files = (
 				77B04F23192CAC8700A0DA80 /* Images.xcassets in Resources */,
 				77B04F15192CAC8700A0DA80 /* InfoPlist.strings in Resources */,
+				77B04F43192CB03D00A0DA80 /* harsh.jpg in Resources */,
+				77B04F45192CB04800A0DA80 /* prateek.jpg in Resources */,
+				77B04F47192CB05000A0DA80 /* amit.jpg in Resources */,
 				77B04F1E192CAC8700A0DA80 /* Main.storyboard in Resources */,
+				77B04F49192CB06800A0DA80 /* akash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +274,7 @@
 				77B04F21192CAC8700A0DA80 /* HSViewController.m in Sources */,
 				77B04F17192CAC8700A0DA80 /* main.m in Sources */,
 				77B04F1B192CAC8700A0DA80 /* HSAppDelegate.m in Sources */,
+				77B04F41192CACA200A0DA80 /* HSUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
